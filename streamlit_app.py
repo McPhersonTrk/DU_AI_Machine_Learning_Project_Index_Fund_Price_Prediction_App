@@ -9,6 +9,16 @@ import yfinance as yf
 import plotly as px
 from plotly import graph_objs as go
 
+import subprocess
+import sys
+
+try:
+    import yfinance
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "yfinance"])
+    import yfinance
+
+
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
