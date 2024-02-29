@@ -1,3 +1,10 @@
+import streamlit as st
+from datetime import date 
+import pandas as pd
+import yfinance as yf
+import plotly as px
+from plotly import graph_objs as go
+
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
