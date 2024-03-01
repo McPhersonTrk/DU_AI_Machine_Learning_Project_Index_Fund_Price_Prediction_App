@@ -18,7 +18,6 @@ except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "yfinance"])
     import yfinance
 
-
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
