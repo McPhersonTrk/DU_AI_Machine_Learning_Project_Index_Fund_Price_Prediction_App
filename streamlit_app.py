@@ -1,13 +1,13 @@
-# dependancies.
-pip install yfinance
-pip install streamlit
+# dependancies
+#pip install yfinance
+#pip install streamlit
 
 import streamlit as st
 from datetime import date 
 import pandas as pd
 import yfinance as yf
-import plotly as px
-from plotly import graph_objs as go
+# import plotly as px
+# from plotly import graph_objs as go
 
 import subprocess
 import sys
@@ -51,4 +51,3 @@ def plot_raw_data():
     st.plotly_chart(fig)
         
 plot_raw_data()
-
