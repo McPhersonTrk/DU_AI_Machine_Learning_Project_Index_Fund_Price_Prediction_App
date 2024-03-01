@@ -2,10 +2,10 @@
 #pip install yfinance
 #pip install streamlit
 
-import streamlit as st
-from datetime import date 
-import pandas as pd
-import yfinance as yf
+#import streamlit as st
+#from datetime import date 
+#import pandas as pd
+#import yfinance as yf
 # import plotly as px
 # from plotly import graph_objs as go
 
